@@ -14,7 +14,6 @@ export function useExplainCode() {
     setLoading(true);
     setExplanation(null);
     setError(null);
-    console.log("api:", import.meta.env.VITE_APP_OPENAI_API_KEY)
 
     try {
       const apiKey = import.meta.env.VITE_APP_OPENAI_API_KEY;
